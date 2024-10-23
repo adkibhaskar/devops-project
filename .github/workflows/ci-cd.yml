@@ -25,6 +25,6 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build task-manager .
+        docker build -t task-manager .
 
     
